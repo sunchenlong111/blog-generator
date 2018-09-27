@@ -31,7 +31,7 @@ HTTP 响应包括哪些部分，如何用Chrome开发者工具查看 HTTP 响应
 >用来分隔请求头部和请求数据
 
 ####4.请求数据
->POST 　/index.php　HTTP/1.1 　　 请求行
+POST 　/index.php　HTTP/1.1 　　 请求行
 Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:10.0.2) Gecko/20100101 Firefox/10.0.2　　请求头
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,/;q=0.8
@@ -86,7 +86,7 @@ HTTP状态码分类
 
 响应数据
 用于存放需要返回给客户端的数据信息。
->HTTP/1.1 200 OK
+HTTP/1.1 200 OK
 Accept-Ranges: bytes
 Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform
 Connection: Keep-Alive
